@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(231, 231, 47);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1 {
+  background-color: white;
+  color: rgb(231, 231, 47);
+  box-shadow: 1px 1px 2px black;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  padding: 3px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  border-radius: 5px;
+}
+
+.navbar h2 {
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-weight: lighter;
+  letter-spacing: 1.9px;
+}
+
+.input {
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  border-radius: 0.81rem;
+  box-shadow: 2.5px 2.5px 8px saddlebrown;
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.input input {
+  height: 1.5rem;
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: bolder;
+  padding: 0.6rem 1.42rem;
+  border: none;
+  outline: none;
+  border-radius: 0.81rem 0.81rem 0 0;
+  margin-bottom: 0.21rem;
+  background-color: whitesmoke;
+  padding-top: 1rem;
+}
+
+.input textarea {
+  width: 100%;
+  font-weight: lighter;
+  border: none;
+  padding: 0.7rem;
+  outline: none;
+  border-radius: 0 0 0.81rem 0.81rem;
+  background-color: whitesmoke;
+}
+
+.input button {
+  background-color: rgb(231, 231, 47);
+  padding: 0.41rem;
+  border-radius: 50%;
+  border: none;
+  width: 3rem;
+  outline: none;
+  margin-right: 1px;
+  position: absolute;
+  bottom: -0.71rem;
+  right: -0.71rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.input button:hover {
+  background-color: rgb(30, 225, 30);
+  color: whitesmoke;
+}
+
+.output {
+  display: grid;
+  place-items: center;
+  max-width: 98%;
+  grid-template-columns: repeat(5, 2fr);
+  grid-gap: 3rem;
+  padding: 1rem;
+  padding-left: 2.4rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.card-cont {
+  position: relative;
+  box-shadow: 2.5px 2.5px 9px green;
+  width: 16.5vw;
+  border-radius: 0.91rem;
+}
+
+.cards {
+  padding: 1rem;
+  max-height: 27vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 0.91rem;
+}
+
+.cards h3 {
+  text-transform: capitalize;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.cards p {
+  font-weight: lighter;
+  font-size: 1rem;
+  text-align: start;
+}
+
+.button_cnt{
+  padding: 0 1rem;
+}
+
+.button_cnt button {
+  padding: 0.41rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.button_cnt button:first-child {
+  color: red;
+}
+.button_cnt button:last-child {
+  color: rgb(231, 231, 47);
+  margin-left: 0.4rem;
+}
+
+.cards::-webkit-scrollbar {
+  display: none;
+}
